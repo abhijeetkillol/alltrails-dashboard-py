@@ -29,8 +29,8 @@ TRAILS = [
     {"name":"South Tiger Mountain Summit","loc":"Issaquah, WA","state":"Washington","type":"Out & Back","dist":6.6,"gain":1617,"diff":"Easy/Mod","rating":4.4,"lat":47.4427,"lng":-121.9775},
     {"name":"Lime Kiln Trail","loc":"Granite Falls, WA","state":"Washington","type":"Out & Back","dist":6.8,"gain":987,"diff":"Easy/Mod","rating":4.5,"lat":48.0774,"lng":-121.9325},
     {"name":"Rattlesnake Ledge Trail","loc":"North Bend, WA","state":"Washington","type":"Out & Back","dist":5.6,"gain":1466,"diff":"Easy/Mod","rating":4.7,"lat":47.434,"lng":-121.7685},
-    {"name":"Whiytering Firs & Lloyd Trail Loop","loc":"Snohomish, WA","state":"Washington","type":"Loop","dist":1.8,"gain":91,"diff":"Easy","rating":4.6,"lat":47.7886,"lng":-122.0799},
-    {"name":"May”s Creek Trail","loc":"Gold Bar, WA","state":"Washington","type":"Out & Back","dist":6.0,"gain":1000,"diff":"Easy/Mod","rating":4.4,"lat":47.8634,"lng":-121.6567},
+    {"name":"Whispering Firs & Lloyd Trail Loop","loc":"Snohomish, WA","state":"Washington","type":"Loop","dist":1.8,"gain":91,"diff":"Easy","rating":4.6,"lat":47.7886,"lng":-122.0799},
+    {"name":"May's Creek Trail","loc":"Gold Bar, WA","state":"Washington","type":"Out & Back","dist":6.0,"gain":1000,"diff":"Easy/Mod","rating":4.4,"lat":47.8634,"lng":-121.6567},
     {"name":"Granite Lakes Trail","loc":"Snoqualmie Pass, WA","state":"Washington","type":"Out & Back","dist":8.4,"gain":2411,"diff":"Easy/Mod","rating":4.6,"lat":47.4921,"lng":-121.6398},
     {"name":"Twin Falls Trail","loc":"North Bend, WA","state":"Washington","type":"Out & Back","dist":2.6,"gain":587,"diff":"Easy/Mod","rating":4.7,"lat":47.4528,"lng":-121.7054},
     {"name":"Lake Ann Trail (Stehekin)","loc":"Stehekin, WA","state":"Washington","type":"Out & Back","dist":3.5,"gain":705,"diff":"Easy/Mod","rating":4.6,"lat":48.5152,"lng":-120.7359},
@@ -209,4 +209,4 @@ with tab4:
                  column_config={
                      "Dist (mi)": st.column_config.NumberColumn(format="%.1f mi"),
                      "Elev. Gain (ft)": st.column_config.NumberColumn(format="%d ft"),
-                 })
+                     
