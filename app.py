@@ -205,8 +205,4 @@ with tab4:
     display = filtered[["name","loc","state","type","dist","gain","diff","rating"]].copy()
     display.columns = ["Trail Name","Location","State","Type","Dist (mi)","Elev. Gain (ft)","Difficulty","Rating"]
     display["Rating"] = display["Rating"].apply(lambda r: f"⭐ {r:.1f}")
-    st.dataframe(display, use_container_width=True, height=500,
-                 column_config={
-                     "Dist (mi)": st.column_config.NumberColumn(format="%.1f mi"),
-                     "Elev. Gain (ft)": st.column_config.NumberColumn(format="%d ft"),
-                     
+    st.dataframe(display, use_container_width=True, height=500)
